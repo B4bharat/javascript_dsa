@@ -21,7 +21,6 @@ function countingSort(array, minimumValue, maximumValue) {
     for (i = minimumValue; i <= maximumValue; i++) {
         console.log(count[i])
         while (count[i]-- > 0) {
-            i
             array[z++] = i;
         }
     }
